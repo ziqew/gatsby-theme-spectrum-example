@@ -1,17 +1,10 @@
 ---
 title: Overview - Adobe Analytics
 description: This is an overview page of Adobe Analytics 
-resources:
-  - text: Adobe Analytics Product Docs
-    link: https://adobe.io
-  - text: Adobe Analytics Github Repo 
-    link: https://adobe.io
 contributors:
   - https://github.com/icaraps
   - https://github.com/macdonst
   - https://github.com/simonwex
-  - https://github.com/schaulinsan
-  - https://github.com/duynguyen
 ---
 
 <Hero slots="image, heading, text" background="rgb(64, 34, 138)"/>
@@ -21,6 +14,13 @@ contributors:
 # Adobe Analytics 
 
 Adobe Product API offers limitless ways to integrate your most important customer data into key business processes. Adobe Product API offer limitless ways.
+
+<Resources slots="heading, links"/>
+
+#### Resources
+
+* [Quickstart Guide](https://adobe.io)
+* [Adobe Analytics Github Repo](https://adobe.io)
 
 ## Overview
 
@@ -32,17 +32,17 @@ You can also create reports to explore, get insights, or answer important questi
 
 ## Discover 
 
-### Get Started
+<ContentBlock width="100%" slots="heading, link, text"/>
 
-<ContentBlock width="100%" slots="link, text"/>
+### Get Started
 
 [Quickstart Guide](https://adobe.io)
     
 Get started with the Adobe Analytics APIs.
 
-### Guides
+<ContentBlock slots="heading, link, text"/> 
 
-<ContentBlock slots="link, text"/>
+### Guides
 
 [Calculated Metrics API](https://adobe.io) 
      
@@ -60,15 +60,9 @@ Provides configuration guidance and best practices for the /segments endpoint.
 
 Provides configuration guidance and best practices for the /reports endpoint.  
 
-<ContentBlock slots="link, text"/>     
+<ContentBlock width="100%" slots="heading, link, text"/>
 
-[Migrating from 1.4 to 2.0](https://adobe.io)
-
-For help migrating from 1.3/1.4 versions of the Analytics API to the newer and more capable /reports API. 
-     
 ### API References
-
-<ContentBlock width="100%" slots="link, text"/>
 
 [Try the API](https://adobe.io) 
 
